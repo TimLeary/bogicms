@@ -1,0 +1,106 @@
+2012/12/28 14:38:58 [error] [php] Declaration of CathegoriesController::actionDelete() should be compatible with AXcontroller::actionDelete() (C:\wamp\www\bogicms\protected\controllers\CathegoriesController.php:4)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\bogicms\index.php(13): CWebApplication->run()
+REQUEST_URI=/bogicms/index.php/cathegories
+in C:\wamp\www\bogicms\protected\controllers\CathegoriesController.php (4)
+in C:\wamp\www\bogicms\index.php (13)
+2012/12/28 15:40:51 [error] [exception.CException] exception 'CException' with message 'Property "CathegoriesController.breadcrumbs" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\bogicms\protected\views\cathegories\index.php(5): CComponent->__set('breadcrumbs', Array)
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\bog...')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\bog...', Array, true)
+#3 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\bog...', Array, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#5 C:\wamp\www\bogicms\protected\controllers\CathegoriesController.php(114): CController->render('index', Array)
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CathegoriesController->actionIndex()
+#7 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('cathegories')
+#17 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\bogicms\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/bogicms/index.php/cathegories
+---
+2012/12/28 15:41:46 [error] [exception.CException] exception 'CException' with message 'Property "CathegoriesController.menu" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\bogicms\protected\views\cathegories\index.php(5): CComponent->__set('menu', Array)
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\bog...')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\bog...', Array, true)
+#3 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\bog...', Array, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#5 C:\wamp\www\bogicms\protected\controllers\CathegoriesController.php(114): CController->render('index', Array)
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CathegoriesController->actionIndex()
+#7 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('cathegories')
+#17 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\bogicms\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/bogicms/index.php/cathegories
+---
+2012/12/28 15:42:12 [error] [exception.CException] exception 'CException' with message 'Property "CathegoriesController.menu" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\bogicms\protected\views\layouts\column2.php(15): CComponent->__get('menu')
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\bog...')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\bog...', Array, true)
+#3 C:\wamp\www\yii\framework\web\CController.php(785): CBaseController->renderFile('C:\wamp\www\bog...', Array, true)
+#4 C:\wamp\www\bogicms\protected\controllers\CathegoriesController.php(114): CController->render('index', Array)
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CathegoriesController->actionIndex()
+#6 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('cathegories')
+#16 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\wamp\www\bogicms\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/bogicms/index.php/cathegories
+---
+2012/12/28 15:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AXtreeload".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('AXtreeload')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\bogicms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bogicms/index.php/AXtreeload
+HTTP_REFERER=http://localhost/bogicms/index.php/cathegories
+---
+2012/12/28 15:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AXtreeload".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('AXtreeload')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\bogicms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bogicms/index.php/AXtreeload
+HTTP_REFERER=http://localhost/bogicms/index.php/cathegories
+---
+2012/12/28 15:58:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AXtreeload".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('AXtreeload')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\bogicms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bogicms/index.php/AXtreeload
+HTTP_REFERER=http://localhost/bogicms/index.php/cathegories
+---
