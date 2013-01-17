@@ -17,6 +17,7 @@ return array(
 		'application.models.*',
 		'application.components.*',
                 'application.extensions.NestedDynaTree.*',
+                'ext.giix-components.*', // giix components
 	),
     
         'controllerMap'=>array(
@@ -29,6 +30,10 @@ return array(
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'gii',
+                        'generatorPaths' => array(
+                            'ext.giix-core', // giix generators
+                        ),
+                    
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),

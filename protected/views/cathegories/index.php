@@ -12,6 +12,7 @@
 )); ?>
 <?php
         $this->widget('ext.NestedDynaTree.NestedDynaTree', array(
+            //AJAX controller absolute path if you don`t use controllerMap
             'ajaxController' => Yii::app()->createUrl('AXtree',array()).'/',
             //the class name of the model.
             'modelClass' => "Cathegories",
@@ -23,8 +24,5 @@
             'manipulationEnabled' => !Yii::app()->user->isGuest,
             //can sort items by drag&drop (default true)
             'dndEnabled' => true,
- 
-            //AJAX controller absolute path if you don`t use controllerMap
-            // 'ajaxController'=>'/path/to/controller/' //default('/AXtree/')
         ));
 ?>

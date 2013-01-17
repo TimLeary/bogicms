@@ -49,17 +49,19 @@ class CathegoriesController extends AXcontroller
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
+        /*
 	public function actionView($id)
 	{
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
-	}
+	}*/
 
 	/**
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
+        /*
 	public function actionCreate()
 	{
 		$model=new Cathegories;
@@ -77,14 +79,14 @@ class CathegoriesController extends AXcontroller
 		$this->render('create',array(
 			'model'=>$model,
 		));
-	}
+	}*/
 
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
-	public function actionUpdate($id)
+	/* public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
 
@@ -101,7 +103,7 @@ class CathegoriesController extends AXcontroller
 		$this->render('update',array(
 			'model'=>$model,
 		));
-	}
+	}*/
 
 	/**
 	 * Lists all models.
@@ -117,6 +119,7 @@ class CathegoriesController extends AXcontroller
 	/**
 	 * Manages all models.
 	 */
+        /*
 	public function actionAdmin()
 	{
 		$model=new Cathegories('search');
@@ -128,12 +131,15 @@ class CathegoriesController extends AXcontroller
 			'model'=>$model,
 		));
 	}
+         * 
+         */
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer the ID of the model to be loaded
 	 */
+        /*
 	public function loadModel($id)
 	{
 		$model=Cathegories::model()->findByPk($id);
@@ -141,11 +147,12 @@ class CathegoriesController extends AXcontroller
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
 	}
-
+        */
 	/**
 	 * Performs the AJAX validation.
 	 * @param CModel the model to be validated
 	 */
+        /*
 	protected function performAjaxValidation($model)
 	{
 		if(isset($_POST['ajax']) && $_POST['ajax']==='cathegories-form')
@@ -154,4 +161,5 @@ class CathegoriesController extends AXcontroller
 			Yii::app()->end();
 		}
 	}
+         */
 }
