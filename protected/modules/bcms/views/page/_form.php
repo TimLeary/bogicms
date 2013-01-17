@@ -20,7 +20,7 @@
 		</div><!-- row -->
 		<div class="row">
 		<?php echo $form->labelEx($model,'language_id'); ?>
-		<?php echo $form->dropDownList($model, 'language_id', GxHtml::listDataEx(Language::model()->findAllAttributes(null, true))); ?>
+		<?php echo $form->dropDownList($model, 'language_id', GxHtml::listDataEx(ActiveLanguage::model()->findAllAttributes(null, true))); ?>
 		<?php echo $form->error($model,'language_id'); ?>
 		</div><!-- row -->
 		<div class="row">

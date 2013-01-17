@@ -17,7 +17,7 @@
 
 	<div class="row">
 		<?php echo $form->label($model, 'language_id'); ?>
-		<?php echo $form->dropDownList($model, 'language_id', GxHtml::listDataEx(Language::model()->findAllAttributes(null, true)), array('prompt' => Yii::t('app', 'All'))); ?>
+		<?php echo $form->dropDownList($model, 'language_id', GxHtml::listDataEx(ActiveLanguage::model()->findAllAttributes(null, true)), array('prompt' => Yii::t('app', 'All'))); ?>
 	</div>
 
 	<div class="row">

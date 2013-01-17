@@ -77,4 +77,5 @@ abstract class BaseLanguage extends GxActiveRecord {
 			'criteria' => $criteria,
 		));
 	}
+        
 }

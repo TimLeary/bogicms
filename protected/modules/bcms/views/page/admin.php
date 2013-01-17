@@ -47,7 +47,7 @@ You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&g
 		array(
 				'name'=>'language_id',
 				'value'=>'GxHtml::valueEx($data->language)',
-				'filter'=>GxHtml::listDataEx(Language::model()->findAllAttributes(null, true)),
+				'filter'=>GxHtml::listDataEx(ActiveLanguage::model()->findAllAttributes(null, true)),
 				),
 		'permalink',
 		/*array(
@@ -56,10 +56,8 @@ You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&g
 				'filter'=>GxHtml::listDataEx(Cathegories::model()->findAllAttributes(null, true)),
 				),*/
 		'url',
-		/*
 		'is_active',
 		'is_url',
-		*/
 		array(
 			'class' => 'CButtonColumn',
 		),
