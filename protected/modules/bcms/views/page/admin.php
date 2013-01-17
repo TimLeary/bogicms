@@ -50,11 +50,11 @@ You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&g
 				'filter'=>GxHtml::listDataEx(Language::model()->findAllAttributes(null, true)),
 				),
 		'permalink',
-		array(
+		/*array(
 				'name'=>'menu_id',
 				'value'=>'GxHtml::valueEx($data->menu)',
 				'filter'=>GxHtml::listDataEx(Cathegories::model()->findAllAttributes(null, true)),
-				),
+				),*/
 		'url',
 		/*
 		'is_active',

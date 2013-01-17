@@ -54,7 +54,10 @@ abstract class BasePage extends GxActiveRecord {
 		return array(
 			'articleToPages' => array(self::HAS_MANY, 'ArticleToPage', 'menu_in_language_id'),
 			'language' => array(self::BELONGS_TO, 'Language', 'language_id'),
-			'menu' => array(self::BELONGS_TO, 'Cathegories', 'menu_id'),
+                        /** 
+                         * @todo Connect <Cathegories> to the model
+                         */
+			/* 'menu' => array(self::BELONGS_TO, 'Cathegories', 'menu_id'), */
 		);
 	}
 

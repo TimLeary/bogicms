@@ -29,9 +29,9 @@
 		<?php echo $form->error($model,'permalink'); ?>
 		</div><!-- row -->
 		<div class="row">
-		<?php echo $form->labelEx($model,'menu_id'); ?>
-		<?php echo $form->dropDownList($model, 'menu_id', GxHtml::listDataEx(Cathegories::model()->findAllAttributes(null, true))); ?>
-		<?php echo $form->error($model,'menu_id'); ?>
+		<?php //echo $form->labelEx($model,'menu_id'); ?>
+		<?php //echo $form->dropDownList($model, 'menu_id', GxHtml::listDataEx(Cathegories::model()->findAllAttributes(null, true))); ?>
+		<?php //echo $form->error($model,'menu_id'); ?>
 		</div><!-- row -->
 		<div class="row">
 		<?php echo $form->labelEx($model,'url'); ?>

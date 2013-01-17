@@ -26,8 +26,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model, 'menu_id'); ?>
-		<?php echo $form->dropDownList($model, 'menu_id', GxHtml::listDataEx(Cathegories::model()->findAllAttributes(null, true)), array('prompt' => Yii::t('app', 'All'))); ?>
+		<?php //echo $form->label($model, 'menu_id'); ?>
+		<?php //echo $form->dropDownList($model, 'menu_id', GxHtml::listDataEx(Cathegories::model()->findAllAttributes(null, true)), array('prompt' => Yii::t('app', 'All'))); ?>
 	</div>
 
 	<div class="row">
